@@ -1,0 +1,121 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>node --version
+v7.8.0
+
+C:\WINDOWS\system32>node --version
+v8.0.0
+
+C:\WINDOWS\system32>npm --version
+5.0.0
+
+C:\WINDOWS\system32>cd c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart
+
+c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart>git clone https://github.com/angular/quickstart.git
+Cloning into 'quickstart'...
+remote: Counting objects: 1352, done.
+remote: Total 1352 (delta 0), reused 0 (delta 0), pack-reused 1352
+Receiving objects: 100% (1352/1352), 1.11 MiB | 1.61 MiB/s, done.
+Resolving deltas: 100% (745/745), done.
+Checking connectivity... done.
+
+c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart>cd quickstart
+
+c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\quickstart>npm install
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+
+> fsevents@1.1.1 install c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\quickstart\node_modules\fsevents
+> node install
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 608 packages in 667.045s
+
+c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\quickstart>npm start
+
+> angular-quickstart@1.0.0 prestart c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\quickstart
+> npm run build
+
+
+> angular-quickstart@1.0.0 build c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\quickstart
+> tsc -p src/
+
+
+> angular-quickstart@1.0.0 start c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\quickstart
+> concurrently "npm run build:watch" "npm run serve"
+
+[0]
+[0] > angular-quickstart@1.0.0 build:watch c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\quickstart
+[0] > tsc -p src/ -w
+[0]
+[1]
+[1] > angular-quickstart@1.0.0 serve c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\quickstart
+[1] > lite-server -c=bs-config.json
+[1]
+[0] 10:41:36 - Compilation complete. Watching for file changes.
+[1] ** browser-sync config **
+[1] { injectChanges: false,
+[1]   files: [ './**/*.{html,htm,css,js}' ],
+[1]   watchOptions: { ignored: 'node_modules' },
+[1]   server:
+[1]    { baseDir: 'src',
+[1]      middleware: [ [Function], [Function] ],
+[1]      routes: { '/node_modules': 'node_modules' } } }
+[1] [BS] Access URLs:
+[1]  -------------------------------------
+[1]        Local: http://localhost:3000
+[1]     External: http://172.31.99.33:3000
+[1]  -------------------------------------
+[1]           UI: http://localhost:3001
+[1]  UI External: http://172.31.99.33:3001
+[1]  -------------------------------------
+[1] [BS] Serving files from: src
+[1] [BS] Watching files...
+[1] 17.06.03 10:42:08 200 GET /index.html
+[1] 17.06.03 10:42:09 200 GET /styles.css
+[1] 17.06.03 10:42:09 200 GET /systemjs.config.js
+[1] 17.06.03 10:42:09 200 GET /zone.js/dist/zone.js
+[1] 17.06.03 10:42:09 200 GET /systemjs/dist/system.src.js
+[1] 17.06.03 10:42:09 200 GET /core-js/client/shim.min.js
+[1] 17.06.03 10:42:11 200 GET /main.js
+[1] 17.06.03 10:42:11 200 GET /systemjs-angular-loader.js
+[1] 17.06.03 10:42:11 200 GET /@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js
+[1] 17.06.03 10:42:12 200 GET /app/app.module.js
+[1] 17.06.03 10:42:12 200 GET /@angular/common/bundles/common.umd.js
+[1] 17.06.03 10:42:12 200 GET /@angular/platform-browser/bundles/platform-browser.umd.js
+[1] 17.06.03 10:42:13 200 GET /@angular/core/bundles/core.umd.js
+[1] 17.06.03 10:42:13 200 GET /app/app.component.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/observable/merge.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/operator/share.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/Subject.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/Observable.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/operator/merge.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/operator/multicast.js
+[1] 17.06.03 10:42:14 200 GET /@angular/compiler/bundles/compiler.umd.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/util/ObjectUnsubscribedError.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/symbol/rxSubscriber.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/Subscriber.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/Subscription.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/util/root.js
+[1] 17.06.03 10:42:14 200 GET /rxjs/SubjectSubscription.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/util/toSubscriber.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/symbol/observable.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/observable/ArrayObservable.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/operator/mergeAll.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/util/isScheduler.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/observable/ConnectableObservable.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/util/isFunction.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/util/isArray.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/Observer.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/util/isObject.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/util/tryCatch.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/util/errorObject.js
+[1] 17.06.03 10:42:15 200 GET /rxjs/util/UnsubscriptionError.js
+[1] 17.06.03 10:42:16 200 GET /rxjs/observable/EmptyObservable.js
+[1] 17.06.03 10:42:16 200 GET /rxjs/observable/ScalarObservable.js
+[1] 17.06.03 10:42:16 200 GET /rxjs/util/subscribeToResult.js
+[1] 17.06.03 10:42:16 200 GET /rxjs/OuterSubscriber.js
+[1] 17.06.03 10:42:16 200 GET /rxjs/util/isPromise.js
+[1] 17.06.03 10:42:16 200 GET /rxjs/symbol/iterator.js
+[1] 17.06.03 10:42:16 200 GET /rxjs/InnerSubscriber.js

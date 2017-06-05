@@ -1,0 +1,157 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\toh-6
+
+c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\toh-6>npm start
+
+> angular-io-example@1.0.0 prestart c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\toh-6
+> npm run build
+
+
+> angular-io-example@1.0.0 build c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\toh-6
+> tsc -p src/
+
+
+> angular-io-example@1.0.0 start c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\toh-6
+> concurrently "npm run build:watch" "npm run serve"
+
+[1]
+[1] > angular-io-example@1.0.0 serve c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\toh-6
+[1] > lite-server -c=bs-config.json
+[1]
+[0]
+[0] > angular-io-example@1.0.0 build:watch c:\Users\xxxxxxxxxxxx\JavaScript\Angular\Angular4-Quickstart\toh-6
+[0] > tsc -p src/ -w
+[0]
+[0] 18:34:11 - Compilation complete. Watching for file changes.
+[0]
+[0]
+[1] ** browser-sync config **
+[1] { injectChanges: false,
+[1]   files: [ './**/*.{html,htm,css,js}' ],
+[1]   watchOptions: { ignored: 'node_modules' },
+[1]   server:
+[1]    { baseDir: 'src',
+[1]      middleware: [ [Function], [Function] ],
+[1]      routes: { '/node_modules': 'node_modules' } } }
+[1] [BS] Access URLs:
+[1]  ----------------------------------
+[1]        Local: http://localhost:3000
+[1]     External: http://10.0.0.8:3000
+[1]  ----------------------------------
+[1]           UI: http://localhost:3001
+[1]  UI External: http://10.0.0.8:3001
+[1]  ----------------------------------
+[1] [BS] Serving files from: src
+[1] [BS] Watching files...
+[1] 17.06.03 18:34:28 304 GET /index.html
+[1] 17.06.03 18:34:28 304 GET /systemjs.config.js
+[1] 17.06.03 18:34:28 304 GET /styles.css
+[1] 17.06.03 18:34:28 304 GET /core-js/client/shim.min.js
+[1] 17.06.03 18:34:28 304 GET /zone.js/dist/zone.js
+[1] 17.06.03 18:34:29 304 GET /systemjs/dist/system.src.js
+[1] 17.06.03 18:34:29 200 GET /main.js
+[1] 17.06.03 18:34:29 304 GET /systemjs-angular-loader.js
+[1] 17.06.03 18:34:29 304 GET /@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js
+[1] 17.06.03 18:34:29 200 GET /app/app.module.js
+[1] 17.06.03 18:34:30 304 GET /@angular/common/bundles/common.umd.js
+[1] 17.06.03 18:34:30 304 GET /@angular/compiler/bundles/compiler.umd.js
+[1] 17.06.03 18:34:30 200 GET /app/dashboard.component.js
+[1] 17.06.03 18:34:30 200 GET /app/app-routing.module.js
+[1] 17.06.03 18:34:30 200 GET /app/app.component.js
+[1] 17.06.03 18:34:30 304 GET /@angular/platform-browser/bundles/platform-browser.umd.js
+[1] 17.06.03 18:34:30 200 GET /app/heroes.component.js
+[1] 17.06.03 18:34:30 200 GET /app/hero.service.js
+[1] 17.06.03 18:34:30 304 GET /@angular/core/bundles/core.umd.js
+[1] 17.06.03 18:34:30 200 GET /app/hero-detail.component.js
+[1] 17.06.03 18:34:30 200 GET /app/hero-search.component.js
+[1] 17.06.03 18:34:30 200 GET /app/in-memory-data.service.js
+[1] 17.06.03 18:34:30 304 GET /angular-in-memory-web-api/bundles/in-memory-web-api.umd.js
+[1] 17.06.03 18:34:30 304 GET /@angular/http/bundles/http.umd.js
+[1] 17.06.03 18:34:30 304 GET /@angular/forms/bundles/forms.umd.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/add/operator/switchMap.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/add/operator/toPromise.js
+[1] 17.06.03 18:34:31 304 GET /@angular/router/bundles/router.umd.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/Observable.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/Subject.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/add/operator/delay.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/add/observable/of.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/observable/merge.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/operator/map.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/operator/share.js
+[1] 17.06.03 18:34:31 200 GET /app/hero-search.service.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/add/operator/distinctUntilChanged.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/observable/fromPromise.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/add/operator/catch.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/observable/forkJoin.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/add/operator/debounceTime.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/BehaviorSubject.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/observable/of.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/observable/from.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/operator/concatAll.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/operator/every.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/operator/concatMap.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/operator/delay.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/operator/first.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/util/EmptyError.js
+[1] 17.06.03 18:34:31 304 GET /rxjs/operator/mergeMap.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/last.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/reduce.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/catch.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/filter.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/switchMap.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/toPromise.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/mergeAll.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/SubjectSubscription.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/Subscription.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/symbol/observable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/Subscriber.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/toSubscriber.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/root.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/symbol/rxSubscriber.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/ObjectUnsubscribedError.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/observable/ForkJoinObservable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/debounceTime.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/merge.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/observable/PromiseObservable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/multicast.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/add/operator/map.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/observable/ArrayObservable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/Notification.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/distinctUntilChanged.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/isDate.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/observable/FromObservable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/scheduler/async.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/subscribeToResult.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/isFunction.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/Observer.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/OuterSubscriber.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/errorObject.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/isArray.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/UnsubscriptionError.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/isObject.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/tryCatch.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/isScheduler.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/util/isPromise.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/symbol/iterator.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/InnerSubscriber.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/observable/ScalarObservable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/observable/ConnectableObservable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/observable/IteratorObservable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/observable/EmptyObservable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/operator/observeOn.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/observable/ArrayLikeObservable.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/scheduler/AsyncAction.js
+[1] 17.06.03 18:34:32 304 GET /rxjs/scheduler/AsyncScheduler.js
+[1] 17.06.03 18:34:33 304 GET /rxjs/scheduler/Action.js
+[1] 17.06.03 18:34:33 304 GET /rxjs/Scheduler.js
+[1] 17.06.03 18:34:33 304 GET /app/hero-detail.component.html
+[1] 17.06.03 18:34:33 304 GET /app/hero-search.component.html
+[1] 17.06.03 18:34:33 304 GET /app/heroes.component.html
+[1] 17.06.03 18:34:33 304 GET /app/app.component.css
+[1] 17.06.03 18:34:33 304 GET /app/hero-detail.component.css
+[1] 17.06.03 18:34:33 304 GET /app/dashboard.component.html
+[1] 17.06.03 18:34:33 304 GET /app/hero-search.component.css
+[1] 17.06.03 18:34:33 304 GET /app/heroes.component.css
+[1] 17.06.03 18:34:33 304 GET /app/dashboard.component.css
